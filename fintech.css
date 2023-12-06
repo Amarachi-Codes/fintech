@@ -1,0 +1,102 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    /* .top{
+        background: linear-gradient(217deg,rgba(27, 79, 219), rgba(24, 79, 217,.8), rgba(16, 51, 156,0) 70.71%);
+    } */
+/* .top{
+    background: radial-gradient(ellipse at top, rgb(11, 34, 101), transparent)
+} */
+    
+
+    .top{
+        background-color: rgb(16,51,156);
+        padding-bottom: 20px;
+    }
+    .top .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 28px 32px;
+    }
+    .top .nav p{
+        color: #fff;
+    }
+    .top .card{
+        background-color: #29985c;
+        padding: 20px 32px; 
+        margin: 32px;
+        color: #fff;
+        border-radius: 10px;
+    }
+    .top .card .currentAccount{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .top .card input{
+        margin-top: 36px;
+        margin-bottom:10px;
+        background: transparent;
+        border: 0;
+    }
+    .top .card .balance{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding-top: 24px; */
+        
+    }
+    .transactions{
+        background-color: #fff;
+        padding: 32px;
+    }
+    .transactions .title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 32px;
+    }
+    .transactions .title button{
+        padding: 4px 10px;
+        border: 1px solid #29985c;
+        border-radius: 8px;
+        background-color: aliceblue;
+    }
+    .transactions .transactioncontainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .transactions .transactioncard{
+        background-color: aliceblue;
+        padding: 32px;
+        /* width: 150px; */
+    }
+
+    .features{
+        padding: 20px 32px 0px 32px;
+    }
+    .features .featuresbanner{
+        background-color: rgb(11, 185, 185);
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        padding: 36px 32px;
+        color: #fff;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 32px;
+        background-color: whitesmoke;
+
+    }
