@@ -75,6 +75,10 @@
         justify-content: space-between;
         align-items: center;
     }
+    .transactions .transactioncontainer a{
+        color: #000;
+        text-decoration:none ;
+    }
 
     .transactions .transactioncard{
         background-color: aliceblue;
