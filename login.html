@@ -9,40 +9,49 @@
 </head>
 
 <body>
-    <p>Welcome to Fidelity Bank</p>
-    <fieldset>
-        <legend>Source Account</legend>
-        <input type="text" name="" id="">
-    </fieldset>
-    <input type="password" name="" id="" placeholder="Password">
-    <div>
-        <input type="checkbox" name="" id="">
-        <div>
-            <span>Show Password</span>
-            <span>Forgot Password?</span>
-        </div>
-        <div>
-            <p>Enable biometric authentication</p>
-            <input type="button" value="">
-        </div>
-        <a href="fintech.html"><button>Login</button></a>
-        <p>New to Internet banking?<span>Sign Up Here</span></p>
+    <div class="login_container">
+        <div class="login_icon">
+        <i class="fa-solid fa-user" style="color: #d8dbdf;"></i>
     </div>
-    <nav>
+        <p class="login_title">Welcome to Fidelity Bank</p>
+        <fieldset class="fields">
+            <legend>Username</legend>
+            <input type="text" name="" id="">
+        </fieldset>
+        <input type="password" name="" id="" class="password" placeholder="Password">
         <div>
+            <div class="show_hideContainer">
+                <input type="checkbox" name="" id="">
+                <div class="show_hidepward">
+                    <span>Show Password</span>
+                    <span>Forgot Password?</span>
+                </div>
+            </div>
+            <div class="Bio_authen">
+                <p>Enable biometric authentication</p>
+                <input type="radio" name="" id="">
+            </div>
+            <a href="fintech.html"><button class="login_btn">LOGIN</button></a>
+            <p class="new_signup">New to Internet banking?<span class="signup">Sign Up Here</span></p>
+        </div>
+
+    </div>
+    <nav class="footer">
+        <div class="footer_icons">
             <i class="fa-solid fa-arrow-right-to-bracket"></i>
             <p>Login</p>
         </div>
-        <div>
+        <div class="footer_icons">
             <i class="fa-solid fa-lock"></i>
             <p>Open account</p>
         </div>
-        <div>
+        <div class="footer_icons">
             <i class="fa-solid fa-headphones"></i>
             <p>Contact</p>
         </div>
-        
+
     </nav>
+
     <script src="fintech.js"></script>
 </body>
 

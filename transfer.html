@@ -1,30 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="transfer.css">
 </head>
+
 <body>
-    <div>
+    <div class="transfer_container">
         <i class="fa-solid fa-angle-left"></i>
         <p>Transfers</p>
-        <i class="fa-solid fa-bell" style="color: #fff";></i>
+        <i class="fa-solid fa-bell" style="color: #fff" ;></i>
+
+    </div>
+    <div class="form">
+        <form action="">
+            <p>Transfer type</p>
+            
+            <div class="form_input">
+                <input type="button" value="Transfer to Fidelity" readonly>
+                <a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="form_input">
+                <input type="button" value="Transfer to Other Banks" readonly>
+                <a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="form_input">
+                <input type="button" value="Transfer to Fx Other Banks" readonly>
+                <a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="form_input">
+                <input type="button" value="Transfer to Multiple Accounts" readonly>
+                <a href=""><i class="fa-solid fa-angle-right"></i></a>
+            </div>
+        </form>
         
     </div>
-    <p>Transfer type</p>
-    <form action="">
-        
-        <!-- <p><button>Transfer to Fidelity<a href=""><i class="fa-solid fa-angle-right"></i></a></button> </p>
-        <p><button><a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a></button> </p>
-        <p><button>Transfer to Other Banks<a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a></button> </p> -->
-        <p><input type="button" value="Transfer to Fidelity" readonly> <a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a></p>
-        <p><input type="button" value="Transfer to Other Banks" readonly> <a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a></p>
-        <p><input type="button" value="Transfer to Fx Other Banks" readonly> <a href="transferform.html"><i class="fa-solid fa-angle-right"></i></a></p>
-        <p><input type="button" value="Transfer to Multiple Accounts" readonly> <a href=""><i class="fa-solid fa-angle-right"></i></a></p>
-    </form>
-
+    <div class="limit">
+    <p>Daily limit on transfer(s) applies over a 24-hour cycle</p>
+    </div>
     <script src="fintech.js"></script>
 </body>
+
 </html>

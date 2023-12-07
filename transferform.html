@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="transfer.css">
+    <link rel="stylesheet" href="transferform.css">
 </head>
+
 <body>
     <div>
-        <i class="fa-solid fa-angle-left"></i>
-        <p>Interbank Transfers</p>
-        <i class="fa-solid fa-bell" style="color: #fff";></i>
-        <p>Transfer to Other Banks</p>
-    <form action="">
-<fieldset>
-    <legend>Source Account</legend>
-    <input type="text" name="" id="">
-</fieldset>
-<fieldset>
-    <legend>Available Balance</legend>
-    <input type="text" name="" id="">
-</fieldset>
-<p><select name="" id="">
-    <option value="">Select Beneficiary's Bank</option>
-  <option value="">Access Bank</option>  
-  <option value="">First Bank</option>
-  <option value="">GT Bank</option>
-  <option value="">Fidelity Bank</option>
-  <option value="">UBA</option>
-  <option value="">Eco Bank</option>
-</select>
-</p>
-<p>
-<a href="">Choose saved Beneficiaries</a>
-</p>
-<p>
-<input type="number" name="" id="" placeholder="Beneficiary Account">
-</p>
-<p>
-<input type="number" name="" id="" placeholder="Enter Amount">
-</p>
-<p>
-<input type="text" name="" id="" placeholder="Enter transaction narration">
-</p>
-<div>
-    <input type="text" value="Save Beneficiary" >
-</div>
-<button>Proceed</button>
-<p>Daily limit on transfer(s) applies over a 24-hour cycle</p>
+        <div class="transfer_container">
+
+            <i class="fa-solid fa-angle-left"></i>
+            <p>Interbank Transfers</p>
+            <i class="fa-solid fa-bell" style="color: #fff" ;></i>
+        </div>
+        <div class="form">
+            <form action="">
+                <p class="titleform">Transfer to Other Banks</p>
+                <fieldset class="fields">
+                    <legend>Source Account</legend>
+                    <input type="text" name="" id="">
+                </fieldset>
+                <fieldset class="fields">
+                    <legend>Available Balance</legend>
+                    <input type="text" name="" id="" >
+                </fieldset>
+                <div class="choose">
+                    <select name="" id="" >
+                        <option value="">Select Beneficiary's Bank</option>
+                        <option value="">Access Bank</option>
+                        <option value="">First Bank</option>
+                        <option value="">GT Bank</option>
+                        <option value="">Fidelity Bank</option>
+                        <option value="">UBA</option>
+                        <option value="">Eco Bank</option>
+                    </select>
+                </div>
+                <p class="savedBeneficiary">
+                    <a href="">Choose saved Beneficiaries>></a>
+                </p>
+                <div class="form_input">
+                    <input type="text" name="" id="" placeholder="Beneficiary Account">
+                </div>
+                <div class="form_input">
+                    <input type="text" name="" id="" placeholder="Enter Amount">
+                </div>
+                <div class="form_input">
+                    <input type="text" name="" id="" placeholder="Enter transaction narration">
+                </div>
+        
+        <div class="form_input">
+            <input type="text" value="Save Beneficiary">
+        </div>
+        <button class="login_btn">Proceed</button>
+    </div>
+    <p>Daily limit on transfer(s) applies over a 24-hour cycle</p>
     </form>
+</div>
     </div>

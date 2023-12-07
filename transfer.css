@@ -8,3 +8,43 @@
     box-sizing: border-box;
     
     }
+    body{
+        color: #fff;
+    }
+    .transfer_container{
+        background: linear-gradient(180deg, rgba(9,33,118,1) 0%, rgba(18,72,212,1) 35%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 64px 34px 24px 34px;
+    }
+    .form{
+        color: rgb(5, 5, 75);
+        border-radius: 8px;
+        width: 450px;
+        padding: 36px 80px;
+        margin: 46px auto;
+        background-color: whitesmoke;
+    }
+    .form .form_input input{
+        padding: 8px 12px;
+        width: 250px;
+        height: 40px;
+        text-align: left;
+        margin: 28px 0;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+        
+    }
+    .form .form_input a i{
+       padding: 11px 8px;
+       background-color: white;
+       border: 1px solid white;
+       border-radius: 4px;
+        
+    }
+    .limit{
+        color: rgb(5, 198, 5);
+        text-align: center;
+    }

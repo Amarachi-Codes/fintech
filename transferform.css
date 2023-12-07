@@ -1,0 +1,82 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    body{
+        color: #fff;
+    }
+
+.transfer_container{
+    background: linear-gradient(180deg, rgba(9,33,118,1) 0%, rgba(18,72,212,1) 35%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 34px 24px 34px;
+}
+.titleform{
+    padding: 12px 0;
+}
+.form{
+    color: rgb(5, 5, 75);
+    border-radius: 8px;
+    width: 450px;
+    padding: 36px 75px;
+    margin: 46px auto;
+    background-color: whitesmoke;
+}
+.form .choose select{
+    width: 300px;
+    padding: 8px 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+}
+.login_btn{
+    background-color: rgb(38, 190, 38);
+    width:300px;
+    padding: 12px;
+    border: 1px solid rgb(38, 190, 38);
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0 20px 0;
+}
+.form .form_input input{
+    padding: 8px 12px;
+    width: 300px;
+    height: 40px;
+    text-align: left;
+    margin: 12px 0;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+.savedBeneficiary a{
+    text-decoration: none;
+    color: rgb(38, 190, 38);
+    font-size: smaller;
+   
+    
+}
+
+.fields{
+    width: 300px;
+    height: 42px;
+    border-radius: 8px;
+    margin: 12px 0;
+
+}
+.fields input{
+    width: 250px;
+    height: 22px;
+    background: transparent;
+    border: none;
+   
+}
