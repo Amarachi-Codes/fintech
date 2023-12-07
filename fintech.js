@@ -4,23 +4,29 @@ document.addEventListener("DOMContentLoaded",()=>{
  
 form.addEventListener("submit",(event) =>{
     event.preventDefault();
-    proceed.addEventListener("click", ()=>{
-        withdrawal()
-    });
+    withdrawal();
 });
-
+proceed.addEventListener("click", ()=>{
+    withdrawal();
+});
 
 })
 
 //withdrawal
 function withdrawal(){ 
-    const enteredAmount = parseFloat(document.getElementById("enteredAmount").value.trim());
-    let availableBal = 20000; 
+    const enteredAmount = document.getElementById("enteredAmount").value.trim();
+    let avalableBal = document.getElementById("avalableBal")
+    let Bal = 20000; 
 
-    if(!isNaN(enteredAmount) && enteredAmount <= availableBal){
-       availableBal -= enteredAmount
-       alert("Transactions successful")
+    if(!isNaN(enteredAmount) && enteredAmount <= Bal){
+       Bal -= enteredAmount
+       avalableBal.value = Bal
+        alert("Transactions successful")
     }else{
         alert("insufficient funds")
     }
     }
+
+    //Toggle available balance
+    const balance = document.getElementById("balance")
+    balance.value = Bal
