@@ -17,18 +17,18 @@
             <i class="fa-solid fa-bell" style="color: #fff" ;></i>
         </div>
         <div class="form">
-            <form action="">
+            <form action="" id="transferform" name="transferform">
                 <p class="titleform">Transfer to Other Banks</p>
                 <fieldset class="fields">
                     <legend>Source Account</legend>
-                    <input type="text" name="" id="">
+                    <input type="text" name="account" id="account">
                 </fieldset>
                 <fieldset class="fields">
                     <legend>Available Balance</legend>
-                    <input type="text" name="" id="" >
+                    <input type="text" name="avaliable" id="avalableBal" value="20000" >
                 </fieldset>
                 <div class="choose">
-                    <select name="" id="" >
+                    <select name="bank" id="bank" >
                         <option value="">Select Beneficiary's Bank</option>
                         <option value="">Access Bank</option>
                         <option value="">First Bank</option>
@@ -42,19 +42,19 @@
                     <a href="">Choose saved Beneficiaries>></a>
                 </p>
                 <div class="form_input">
-                    <input type="text" name="" id="" placeholder="Beneficiary Account">
+                    <input type="text" name="benAcc" id="benAcc" placeholder="Beneficiary Account">
                 </div>
                 <div class="form_input">
-                    <input type="text" name="" id="" placeholder="Enter Amount">
+                    <input type="text" name="entAmt" id="enteredAmount" placeholder="Enter Amount">
                 </div>
                 <div class="form_input">
-                    <input type="text" name="" id="" placeholder="Enter transaction narration">
+                    <input type="text" name="entNa" id="entNa" placeholder="Enter transaction narration">
                 </div>
         
         <div class="form_input">
-            <input type="text" value="Save Beneficiary">
+            <input type="text" value="Save Beneficiary" id="saveBen" name="saveBen">
         </div>
-        <button class="login_btn">Proceed</button>
+        <button class="login_btn" id="proceed">Proceed</button>
     </div>
     <p>Daily limit on transfer(s) applies over a 24-hour cycle</p>
     </form>
