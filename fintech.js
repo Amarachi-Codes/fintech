@@ -28,5 +28,16 @@ function withdrawal(){
     }
 
     //Toggle available balance
-    const balance = document.getElementById("balance")
-    balance.value = Bal
+    const balance = document.getElementById("balance");
+    const show = document.getElementById("show");
+
+    // balance.value = Bal
+    show.addEventListener("click",()=>{
+        if(balance.style.display =="none"){
+             balance.style.display= "block";
+        }
+         else{
+             balance.style.display="none"
+         }
+        
+    })

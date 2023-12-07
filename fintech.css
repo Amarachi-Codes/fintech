@@ -54,6 +54,15 @@
         /* padding-top: 24px; */
         
     }
+    .card p{
+        padding-bottom: 32px;
+    }
+    .bal{
+        display: none;
+        color: #fff;
+        
+    }
+    
     .transactions{
         background-color: #fff;
         padding: 32px;
