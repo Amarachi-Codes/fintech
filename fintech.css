@@ -85,6 +85,7 @@
     }
     .transactions .transactioncontainer{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
     }
@@ -128,3 +129,13 @@
         text-decoration: none;
         color: #000;
     }
+
+@media (max-width:700px) {
+    .transactions .transactioncontainer{
+        flex-basis: 25%;
+        padding: 16px;
+    }
+}
+
+
+
