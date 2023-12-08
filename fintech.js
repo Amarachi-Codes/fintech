@@ -15,15 +15,21 @@ proceed.addEventListener("click", ()=>{
 //withdrawal on transferform page
 function withdrawal(){ 
     const enteredAmount = document.getElementById("enteredAmount").value.trim();
-    let avalableBal = document.getElementById("avalableBal")
+    const avalableBal = document.getElementById("avalableBal")
     let Bal = 20000; 
-
-    if(!isNaN(enteredAmount) && enteredAmount <= Bal){
+    
+    if(enteredAmount === ""){
+        alert("Enter a valid amount")
+    }else if(!isNaN(enteredAmount) && enteredAmount <= Bal){
        Bal -= enteredAmount
        avalableBal.value = Bal
-    //    enteredAmount= "" i want to clear the entered amount value from showing after the form submits
-        alert("Transactions successful")
-    }else{
+
+       alert("Transactions successful")
+
+       //clear the entered amount field after transaction is done
+       document.getElementById("enteredAmount").value = ""
+
+    }else {
         alert("insufficient funds")
     }
     }
@@ -49,9 +55,8 @@ function withdrawal(){
     //password validation on login page
 const password =document.getElementById("userpass");
 const checkbox = document.getElementById("hide_show")
-// function password(){
 
-// }
+
 
 // toggle password on login page
 checkbox.addEventListener("click",()=>{
@@ -62,3 +67,7 @@ checkbox.addEventListener("click",()=>{
     }
 })
 
+
+// function password(){
+
+// }

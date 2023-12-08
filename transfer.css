@@ -18,6 +18,13 @@
         align-items: center;
         padding: 64px 34px 24px 34px;
     }
+    .transfer_container a{
+        text-decoration: none;
+        color: white;
+    }
+    .transfer_container a:hover{
+        color: rgb(5, 198, 5);
+    }
     .form{
         color: rgb(5, 5, 75);
         border-radius: 8px;

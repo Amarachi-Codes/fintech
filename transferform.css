@@ -19,6 +19,13 @@
     align-items: center;
     padding: 64px 34px 24px 34px;
 }
+.transfer_container a{
+    text-decoration: none;
+    color: #fff;
+}
+.transfer_container a:hover{
+    color: rgb(5, 198, 5);
+}
 .titleform{
     padding: 12px 0;
 }
@@ -67,17 +74,21 @@
     
 }
 
-.fields{
+.form .fields{
     width: 300px;
     height: 42px;
     border-radius: 8px;
     margin: 12px 0;
 
 }
-.fields input{
+.form .fields input{
     width: 250px;
     height: 22px;
     background: transparent;
     border: none;
+    padding:4px 8px;
    
+}
+.form .fields legend{
+    font-size: small;
 }
