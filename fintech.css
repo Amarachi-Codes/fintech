@@ -132,8 +132,10 @@
 
 @media (max-width:700px) {
     .transactions .transactioncontainer{
-        flex-basis: 25%;
+        flex-basis: 100%;
         padding: 16px;
+        
+
     }
 }
 
