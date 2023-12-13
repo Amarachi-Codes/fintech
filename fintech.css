@@ -136,20 +136,14 @@
         padding: 12px;
     }
     .transactions .transactioncontainer{
-        flex-basis: 100%;
-        padding: 16px;
-        gap: 8px;
+        padding: 12px;
+        /* gap: 4px; */
     }
     .transactions .transactioncard{
-        /* background-color: aliceblue; */
         padding: 20px;
         font-size: x-small;
-        margin: 4px 2px;
-        width: 82px;
-        /* flex-basis: 25%; */
-        
-        /* text-align: center; */
-        /* width: 150px; */
+        width: 72px;
+        flex-basis: 25%;
     }
 }
 
