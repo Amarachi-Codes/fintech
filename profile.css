@@ -1,0 +1,55 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+.top{
+    /* background-color: rgb(16,51,156); */
+    background: linear-gradient(180deg, rgba(9,33,118,1) 0%, rgba(18,72,212,1) 35%);
+    padding-bottom: 20px;
+    
+}
+.top .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.top .fa-angle-right{
+    display: none;
+}
+.top .fa-angle-left{
+    padding: 20px 4px;
+}
+.top .top-id{
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    
+}
+.top .profile-email{
+    font-size: smaller;
+}
+.top .fa-user{
+    padding-top: 40px;
+    
+}
+.form{
+  
+    width: 400px;
+}
+.form .form-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form .form-item .itemleft{
+    display: flex;
+    align-items: center;
+}
