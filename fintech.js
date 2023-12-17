@@ -37,14 +37,16 @@ function withdrawal(){
     //Toggle available balance on the index page
     const balance = document.getElementById("balance");
     const show = document.getElementById("show");
-
+    const showBalance = document.querySelector(".showBalance")
     // balance.value = Bal i want to make the balance gotten from the form to show on the home page show balance field
     show.addEventListener("click",()=>{
         if(balance.style.display =="none"){
              balance.style.display= "block";
+             showBalance.textContent = 'Hide Balance'
         }
          else{
              balance.style.display="none"
+             showBalance.textContent = 'Show Balance'
          }
         
     })
