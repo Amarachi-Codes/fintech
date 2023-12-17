@@ -64,7 +64,7 @@
         padding-bottom: 32px;
     }
     .bal{
-        display: none;
+        display: block;
         color: #fff;
         
     }
@@ -171,8 +171,15 @@
     }
     .features p{
         padding-bottom: 32px;
+        padding-top: 32px;
     } 
-    
+    .transactions{
+       
+        padding: 16px;
+    }
+    .features{
+        padding: 20px 16px 0px 16px;
+    }
     
     
 }

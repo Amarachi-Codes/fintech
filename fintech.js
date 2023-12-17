@@ -41,13 +41,16 @@ function withdrawal(){
     // balance.value = Bal i want to make the balance gotten from the form to show on the home page show balance field
     show.addEventListener("click",()=>{
         if(balance.style.display =="none"){
-             balance.style.display= "block";
-             showBalance.textContent = 'Hide Balance'
+            balance.style.display= "block";
+            showBalance.textContent = 'Hide Balance'
+       }
+        else{
+            balance.style.display="none"
+            showBalance.textContent = 'Show Balance'
+            // balance.value.textContent="*******"
         }
-         else{
-             balance.style.display="none"
-             showBalance.textContent = 'Show Balance'
-         }
+         
+        
         
     })
 
